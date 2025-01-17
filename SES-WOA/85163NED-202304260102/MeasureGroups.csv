@@ -1,0 +1,59 @@
+Id;ParentId;Index;Title;Description
+M007816_1;;4;Financiële Welvaart;"Financiële welvaart
+De welvaartsmaat bevat informatie over zowel het gestandaardiseerd besteedbaar inkomen als het vermogen van huishoudens. De welvaart van een huishouden is vastgesteld als de som van het cumulatieve aandeel in het totale inkomen van alle huishoudens en het cumulatieve aandeel in het totale vermogen. Op grond van de optelling zijn huishoudens opnieuw geordend en vervolgens uitgesmeerd over de welvaartsladder. Het resultaat hiervan is dat huishoudens in de laagste welvaartsgroep een laag inkomen én een laag vermogen hebben. Naarmate het inkomen of vermogen hoger is, wordt een huishouden in een hogere groep ingedeeld. Huishoudens in de hoogste welvaartsgroep hebben een hoog inkomen én een hoog vermogen.
+"
+D005797;;9;Gestandaardiseerd inkomen;"Gestandaardiseerd inkomen
+Het besteedbare inkomen van een huishouden bestaat uit het bruto-inkomen (inkomen uit arbeid, eigen onderneming en vermogen, uitkeringen en ontvangen overdrachten) verminderd met betaalde overdrachten (bijv. partneralimentatie), premies en belasting op inkomen en vermogen. Het besteedbaar inkomen wordt gestandaardiseerd door te corrigeren voor verschillen in grootte en samenstelling van het huishouden. Dit gebeurt door het huishoudensinkomen te delen door een equivalentiefactor die uitdrukt hoe groot het schaalvoordeel is bij het voeren van een gemeenschappelijke huishouding, gebaseerd op de uitgaven voor levensonderhoud (bestedingen). Hierbij is het eenpersoonshuishouden als norm gekozen.
+"
+A047664;;14;Vermogen;"Vermogen
+Het vermogen is het saldo van bezittingen en schulden. De bezittingen omvatten bank- en spaartegoeden, effecten, eigen woning en ander onroerend goed, ondernemingsvermogen, aanmerkelijk belang en overige bezittingen. De schulden betreffen de hypotheekschuld eigen woning, studieschulden en overige schulden. De hypotheekschuld is de stand van de schuld waarover rente is verschuldigd. Opgebouwde tegoeden voor de aflossing van de hypotheek via spaar- en beleggingshypotheken zijn voor een deel waargenomen en in mindering gebracht op de hypotheekschuld. Pensioenaanspraken worden niet tot het vermogen gerekend, omdat ze niet vrijelijk beschikbaar en overdraagbaar zijn. Voor het vermogen is geen standaardisatie toegepast voor verschillen in grootte en samenstelling van het huishouden. De correctiefactoren die worden gebruikt voor de standaardisatie van inkomen zijn niet direct toepasbaar bij een eventuele standaardisatie van het vermogen, omdat dan impliciet de veronderstelling wordt gemaakt dat het vermogen door de huidige huishoudenssamenstelling wordt opgebruikt voor de bestedingen. Dat kan voor sommige toepassingen een redelijke veronderstelling zijn, maar niet in het algemeen en ook niet voor het hele vermogen.
+"
+T001143_1;;19;Opleidingsniveau;"Opleidingsniveau
+Opleidingsniveau betreft het niveau van de hoogste behaalde opleiding. Het opleidingsniveau van een huishouden wordt bepaald door het hoogste opleidingsniveau van de hoofdkostwinner of een eventuele partner.
+"
+2018700;T001143_1;20;Laag;"Laag
+Het hoogst behaalde niveau is laag onderwijs. 
+Dit omvat het basisonderwijs, het vmbo, de eerste 3 leerjaren van havo en vwo en de entreeopleiding (mbo1, voorheen assistentenopleiding), praktijkonderwijs.
+
+"
+2018740;T001143_1;24;Middelbaar;"Middelbaar
+Het hoogst behaalde niveau is middelbaar onderwijs. 
+Dit omvat de bovenbouw van havo en vwo, de basisberoepsopleiding (mbo2), de vakopleiding (mbo3) en de middenkader- en specialistenopleidingen (mbo4).
+"
+2018790;T001143_1;28;Hoog;"Hoog
+Het hoogst behaalde niveau is hoog onderwijs. 
+Dit omvat de hbo- en wo-opleidingen (inclusief die leidend tot de doctorsgraad). Nb Als het hoogst behaalde niveau een hbo- of wo-propedeuse is valt dit onder middelbaar niveau.
+"
+D002028_1;;32;Arbeidsverleden;"Arbeidsverleden
+Het recente arbeidsverleden geeft aan of een persoon in de afgelopen 4 jaren heeft gewerkt en wordt onderverdeeld in de gehele periode van 4 jaren gewerkt, een deel van deze periode gewerkt, niet gewerkt in de afgelopen 4 jaren en gepensioneerd. Het recente arbeidsverleden van een huishouden wordt bepaald op basis van het hoogste arbeidsverleden van de hoofdkostwinner en de eventuele partner op 31 december van het voorgaande verslagjaar. Een uitzondering wordt gevormd door de situatie waarin de hoofdkostwinner in het verslagjaar pensioen heeft als voornaamste persoonlijke inkomensbron. In dat geval wordt het huishouden getypeerd als “gepensioneerd”.
+"
+M007817_1;;37;SES-WOA;"SES-WOA
+Numerieke indicator voor de sociaaleconomische status van een regio op basis van welvaart, opleidingsniveau en arbeidsverleden van huishoudens.
+"
+M007817_2;M007817_1;38;Totaalscore;"Totaalscore
+Numerieke indicator van de sociaaleconomische status op basis van welvaart,  opleidingsniveau en recent arbeidsverleden van huishoudens in een regio. Deze totaalscore is de som van de deelscores welvaart, opleidingsniveau en recente arbeidsverleden.
+"
+M007816_2;M007817_1;42;Deelscore financiële welvaart;"Deelscore financiële welvaart
+Numerieke indicator van de financiële welvaart van huishoudens in een regio.
+"
+T001143_2;M007817_1;44;Deelscore opleidingsniveau;"Deelscore opleidingsniveau
+Numerieke indicator van het opleidingsniveau van huishoudens in een regio.
+"
+D002028_2;M007817_1;48;Deelscore arbeidsverleden;"Deelscore recente arbeidsverleden
+Numerieke indicator van de arbeidsmarktparticipatie van huishoudens in een regio.
+"
+M007817_3;;50;Spreiding;"Spreiding
+Numerieke maat voor de ongelijkheid in een regio. Het betreft het gemiddelde absolute verschil tussen twee willekeurige huishoudens in een regio:  de mean absolute difference. Voor ieder huishouden in een regio wordt het verschil tussen de score van dat huishouden en de scores van alle andere huishoudens in die regio berekend. Hiervan wordt het gemiddelde bepaald. Zo ontstaat voor elk huishouden een gemiddeld verschil met de andere huishoudens. Tot slot wordt daarvan weer het gemiddelde bepaald over alle huishoudens in de regio.
+"
+M007817_4;M007817_3;51;Spreiding totaal;"Spreiding totaal
+De mean absolute difference van de totaalscores SES_WOA in de regio.
+"
+M007816_3;M007817_3;55;Spreiding welvaart;"Spreiding welvaart
+De mean absolute difference van de deelscores welvaart in de regio.
+"
+T001143_3;M007817_3;57;Spreiding opleidingsniveau;"Spreiding opleidingsniveau
+De mean absolute difference van de deelscores opleidingsniveau in de regio.
+"
+D002028_3;M007817_3;61;Spreiding arbeidsverleden;"Spreiding arbeidsverleden	
+De mean absolute difference van de deelscores recent arbeidsverleden in de regio.
+"
