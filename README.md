@@ -1,2 +1,0 @@
-# DataWrangling
-Data Wrangling Project

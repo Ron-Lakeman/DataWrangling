@@ -1,0 +1,10 @@
+1) Calculate avg_rent / m2 instead of totalrent
+2) For SES-WOA score to link with rental analysis, we need gemeente to link with city
+
+
+23/1
+Set the advertentie date op 2019 only, Dus regex en dan filteren op alleen 2019
+Vervolgens merged op merged_rental
+
+
+SESWOA_and_verkoop: 2111
